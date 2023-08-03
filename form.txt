@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<form>
+    <label for="username">Username:</label>
+    <input type="text">
+    <label for="password">Password:</label>
+    <input type="password"><br>
+    <input type="submit" value="submit"><br><br>
+
+    <!--RADIO BUTTON-->
+    <label for="fname">Firstname:</label>
+    <input type="text"><br><br>
+    <label for="lname">Lastname:</label>
+    <input type="text"><br><br>
+    <label for="gender">Gender:</label>
+    <input type="radio"><label for="">male</label>
+    <input type="radio"><label for="">female</label><br><br>
+
+    <!--CHECKBOX-->
+    <label for="">Languages Known:</label><br><br>
+    <input type="checkbox"><label for="">Malayalam</label><br><br>
+    <input type="checkbox"><label for="">English</label><br><br>
+    <input type="checkbox"><label for="">Hindi</label><br><br>
+
+    <!--SELECTION BOX-->
+    <label for="">City:</label>
+    <select>
+        <option value="">select</option>
+        <option value="">kerala</option>
+        <option value="">Delhi</option>
+        <option value="">Coimbathor</option>
+        <option value="">Banglore</option>
+    </select>
+
+   <!--FILE UPLOAD-->
+   <label for="">Upload Certificate:</label>
+   <input type="file"><br><br>
+
+   <!--AUDIO/VIDEO UPLOAD-->
+   <video src="vid.mp4" width="500px" height="500px"controls>
+   <audio src="aud.mp3"controls><br><br>
+   <input type="color">
+</form>
