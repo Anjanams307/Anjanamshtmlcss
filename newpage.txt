@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+            
+            
+        </style>
+    </head>
+    <body background="cam.jpg" width="10px">
+        <h1>PraRoz</h1>
+        <h5>HOME</h5>
+        <h5>ABOUT</h5>
+        <h5>SERVICE</h5>
+        <h5>DESIGN</h5>
+        <h5>CONTACT</h5>
+        <input type="text" id="search-type" placeholder="Type to Search">
+        <button id="search-button">Search</button>
+        <div id="divpara1">
+        <p class="sample1">
+            Web Design &
+        </p>
+        
+
+        <p class="sample2">
+            Development
+        </p>
+
+        <p class="sample3">
+            Course
+        </p>
+
+        <p class="sample4">
+            Web Design is a specialisation of the design  stream.They also use HTML,<br>
+            CSS.WYSIWYG editing software,mark up validators etc.,<br>
+            to create design elements.
+        </p>
+
+        <button class="joinus-button">JOIN US</button>
+        </div>
+        <div class="div1">
+            <button class="login-here">Login Here</button><br>
+            <div id="divmail">
+            <input type="text" id="email" placeholder="Enter Email Here">
+            <hr>
+            </div>
+            <div id="divpassword";>
+            <input type="text" id="password" placeholder="Enter Password Here">
+            <hr>
+            </div>
+            <button class="login">Login</button><br>
+            <div id="div3">
+                <p id="account">Don't have an account?<br></p>
+                <p id="here"><span id="signup">Sign up</span> here<br></p>
+                <p id="loginwith" >Log in with</p>
+    
+
+            </div>
+            
+        <div id="div2">
+        <img src="facebook-png.png" id="facebook">
+        <img src="insta-png.png" id="instagram">
+        <img src="twitter-png.png" id="twitter">
+        <img src="google-png.png" id="google">
+        </div>   
+        </div>
+
+       
+    </body>
+</html>
+
+CSS FILE
+h1{
+    color: rgb(255, 81, 0);
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 8%;
+
+}
+
+h5{
+    display: inline;
+    color:white;
+    margin-right: 6%;
+    font-family: Arial;
+}
+
+.sample1{
+    color: white;
+    margin-left: 3%;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-top: 100px;
+    display: inline-block;
+
+}
+
+.sample2{
+    color:  rgb(255, 81, 0);
+    margin-left: 3%;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+
+.sample3{
+    color:  white;
+    margin-left: 3%;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -80px;
+
+}
+
+.sample4{
+    color:  white;
+    margin-left: 3%;
+    font-size: 14px;
+    margin-top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 6px;
+    line-height: 25px;
+
+}
+
+.joinus-button{
+    background-color: rgb(255, 81, 0);
+    color: rgb(26, 13, 3);
+    border: none;
+    height: 30px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 50px;
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    transition: opacity 1s;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ #divpara1{
+    width: 500px;
+ }
+
+ #search-type{
+    background-color: rgba(0, 0, 0, 0.199);
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    border-style: solid;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: -5px;
+    border-color: rgb(255, 81, 0);
+ }
+
+ #search-button{
+    background-color: rgb(255, 81, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 7.5px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 0px;
+
+ }
+
+ .div1{
+    background-color: rgba(0, 0, 0, 0.596) ;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px; 
+    margin-left: 950px;
+    margin-top: -500px;
+    display: inline-block;
+ }
+
+ .login-here{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 81, 0);
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+
+ }
+
+ #email{
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px;
+    color: white;
+
+ }
+
+ #divmail{
+    margin-bottom: 30px;
+   
+ }
+
+ #password{
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px;
+    color: white;
+ }
+
+ #divpassword{
+    margin-bottom: 30px;
+ }
+
+ .login{
+    background-color: rgb(255, 81, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 7px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+ }
+
+ #account{
+    color: white;
+    margin-left: 30px;
+    margin: 0px;
+ }
+
+ #signup{
+    color:  rgb(255, 81, 0);
+
+    margin-bottom: 20px;
+  
+
+ }
+
+ #loginwith{
+    color: white ;
+   font-size: 12px;
+   margin-left: 40px;
+   margin: 0px;
+  
+   
+ 
+ }
+
+ img{
+    width: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+ #here{
+    color: white;
+    margin-top: 10px;
+    margin: 0px;
+    margin-bottom: 10px;
+ }
+ #div3{
+    text-align: center;
+ }
