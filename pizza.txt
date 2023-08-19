@@ -1,0 +1,167 @@
+PIZZA WEBPAGE
+
+---HTML---
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>poco</title>
+        <link rel="stylesheet" href="pizza.css">
+    </head>
+    <body background="back.jpg" width="100px" height="100px">
+        <div>
+            <h2>Poco!</h2>
+            <h5>Home</h5>
+            <h5>Menu</h5>
+            <h5>About</h5>
+            <h5>Shop</h5>
+            <h5>Blog</h5>
+            <h5>page</h5>
+            <h5>Contact</h5>
+            <img src="search-png.png" id="search">
+            <img src="contact-png.png" id="contact">
+            <img src="love-png.png" id="love">
+            <img src="basket-png.png" id="basket"> 
+        </div>
+
+        <div>
+            <p class="first">
+                UNLIMITED <br>
+                MEDIUM <span id="pizzas">PIZZAS</span>
+            </p>
+            <p class="second">
+                Medium 2-topping<sup>*</sup> pizza
+            </p>
+            <p class="third">
+                <sup>*</sup>Additional charge for premium toppings. Minimum of 2 required.
+            </p>
+            <button class="ordernow">ORDER NOW</button>
+            <P class="fourth">
+                $12.99<sup id="sup">$19.99</sup>
+            </P>
+
+            <button class="menus">MENUS</button>
+        </div>
+       
+    </body>
+    </html>
+
+--------CSS---------
+
+h2{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+h5{
+    display: inline;
+    margin-right: 6%;
+}
+
+#search{
+    width: 20px;
+    margin-left: 160px;
+    margin-right: 20px;
+}
+
+#contact{
+    width: 20px;
+    margin-right: 20px;
+    
+}
+
+
+#love{
+    width: 20px;
+    margin-right: 20px;
+  
+}
+
+
+#basket{
+    width: 20px;
+    margin-right: 20px;
+   
+}
+
+
+.first{
+    color: rgb(0, 0, 0);
+    margin-left: 3%;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+#pizzas{
+    color: rgb(255, 197, 6);
+}
+
+.second{
+    color: green;
+    margin-left: 3%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.third{
+    margin-left: 3%;
+    margin-top: 5px;
+    font-weight: bold;
+    color: brown;
+}
+
+.fourth{
+    color: green;
+    margin-left: 20px;
+}
+
+#sup{
+    color: brown;
+}
+
+.ordernow{
+    background-color:rgb(255, 197, 6);
+    color: rgb(26, 13, 3);
+    border: none;
+    height: 30px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 11px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    transition: opacity 1s;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .menus{
+    background-color:rgb(177, 114, 85);
+    color: rgb(26, 13, 3);
+    border: none;
+    height: 30px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 0px;
+    margin-right: 100px;
+    margin-left: 600px;
+    margin-top: 130px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 11px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    transition: opacity 1s;
+    font-family: Arial, Helvetica, sans-serif;
+ }
