@@ -165,3 +165,278 @@ h5{
     transition: opacity 1s;
     font-family: Arial, Helvetica, sans-serif;
  }
+
+//PIZZA UPDATED FILE(MAIN FILE)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>poco</title>
+        <link rel="stylesheet" href="pizza.css">
+    </head>
+    <body>
+        <div class="div1">
+            <h2>poco!</h2>
+           
+            <a href="pizza.html" target="_blank"> <h5>Home</h5></a>
+            <a href="menu.html" target="_blank"><h5>Menu</h5></a>
+            <a href="about.html " target="_blank"><h5>About</h5></a>
+            <a href="http://amazon.com " target="_blank"><h5>Shop</h5></a>
+            <a href="http://amazon.com " target="_blank"><h5>Blog</h5></a>
+            <a href="http://amazon.com " target="_blank"><h5>Page</h5></a>
+            <a href="http://amazon.com " target="_blank"><h5>Contact</h5></a>
+          
+            <img src="search-png.png" id="search">
+            <img src="contact-png.png" id="contact">
+            <img src="love-png.png" id="love">
+            <img src="basket-png.png" id="basket"> 
+        </div>
+
+        <div>
+            <p class="first">
+                UNLIMITED <br>
+                MEDIUM <span id="pizzas">PIZZAS</span>
+            </p>
+            <p class="second">
+                Medium 2-topping<sup>*</sup> pizza
+            </p>
+            <p class="third">
+                <sup>*</sup>Additional charge for premium toppings. Minimum of 2 required.
+            </p>
+            <button class="ordernow">ORDER NOW</button>
+            <P class="fourth">
+                $12.99<sup id="sup">$19.99</sup>
+            </P>
+
+            <!--<button class="menus">MENUS</button>-->
+        </div>
+       
+    </body>
+    </html>
+
+//PIZZA CSS UPDATED (PIZZA.CSS)
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    
+}
+
+.div1{
+    background-color: white;
+}
+
+h2{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+h5{
+    display: inline;
+    margin-right: 6%;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+
+a{
+    cursor: pointer;
+    transition: background-color 1s, color: 1s;
+}
+
+a:hover{
+    color: rgb(255, 197, 6);
+}
+#search{
+    width: 20px;
+    margin-left: 160px;
+    margin-right: 20px;
+    
+}
+
+#contact{
+    width: 20px;
+    margin-right: 20px;
+    
+}
+
+
+#love{
+    width: 20px;
+    margin-right: 20px;
+  
+}
+
+
+#basket{
+    width: 20px;
+    margin-right: 20px;
+   
+}
+
+
+.first{
+    color: rgb(255, 255, 255);
+    margin-left: 3%;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+#pizzas{
+    color: rgb(255, 197, 6);
+}
+
+.second{
+    color: rgb(158, 235, 158);
+    margin-left: 3%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.third{
+    margin-left: 3%;
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgb(202, 107, 107);
+}
+
+.fourth{
+    color: rgb(159, 201, 159);
+    margin-left: 20px;
+}
+
+#sup{
+    color: rgb(163, 105, 105);
+}
+
+.ordernow{
+    background-color:rgb(68, 67, 65);
+    color: rgb(255, 255, 255);
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 12px;
+    transition: opacity 1s;
+    font-family: Arial;
+    cursor: pointer;
+    transition: background-color 1s, color: 1s;
+ }
+
+ .ordernow:hover{
+    color: rgb(236, 223, 184);
+    background-color:rgb(122, 52, 52);
+ }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+//MENU (MENU.HTML)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MENU</title>
+        <link rel="stylesheet" href="menu.css">
+    </head>
+    <body>
+        <div>
+        
+            <p class="class1">
+                ITALIAN CRUST PIZZAS
+            </p>
+            <p class="class2">
+                Our Italian crust is hand made<br> &nbsp;&nbsp;&nbsp;for us and wood-fired in<br> Modena, Italy. Toppings are all<br>&nbsp;&nbsp;&nbsp; local and/or home gown.
+
+            </p>
+        </div>
+        <div>
+            <span>
+                <img src="" id="">
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>
+                <img src="" id="">
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>
+                <img src="" id="">
+            </span>
+            <span><br><br>
+                <img src="" id="">
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+          
+        </div>
+       
+    </body>
+    </html>
+
+
+//MENU.CSS
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(imm.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    
+}
+
+.class1{
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    
+}
+
+.class2{
+    color: white;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+   
+}
+
+//ABOUT.HTML
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ABOUT</title>
+        <link rel="stylesheet" href="about.css">
+    </head>
+    <body>
+        <div>
+        <h1 class="h1"><center>ABOUT US</center></h1>
+        </div>
+    </body>
+</html>
+
+//MENU.CSS
+
+body{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(food.jpg);
+        background-repeat: no-repeat;
+        background-size: 1920px 1080px;
+        
+    }
+    
