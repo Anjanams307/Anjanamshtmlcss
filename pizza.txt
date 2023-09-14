@@ -1,172 +1,12 @@
-PIZZA WEBPAGE
+                                            PIZZA WEBPAGE
+                            ---------------------------------------------
 
 ---HTML---
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>poco</title>
-        <link rel="stylesheet" href="pizza.css">
-    </head>
-    <body background="back.jpg" width="100px" height="100px">
-        <div>
-            <h2>Poco!</h2>
-            <h5>Home</h5>
-            <h5>Menu</h5>
-            <h5>About</h5>
-            <h5>Shop</h5>
-            <h5>Blog</h5>
-            <h5>page</h5>
-            <h5>Contact</h5>
-            <img src="search-png.png" id="search">
-            <img src="contact-png.png" id="contact">
-            <img src="love-png.png" id="love">
-            <img src="basket-png.png" id="basket"> 
-        </div>
-
-        <div>
-            <p class="first">
-                UNLIMITED <br>
-                MEDIUM <span id="pizzas">PIZZAS</span>
-            </p>
-            <p class="second">
-                Medium 2-topping<sup>*</sup> pizza
-            </p>
-            <p class="third">
-                <sup>*</sup>Additional charge for premium toppings. Minimum of 2 required.
-            </p>
-            <button class="ordernow">ORDER NOW</button>
-            <P class="fourth">
-                $12.99<sup id="sup">$19.99</sup>
-            </P>
-
-            <button class="menus">MENUS</button>
-        </div>
-       
-    </body>
-    </html>
-
---------CSS---------
-
-h2{
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 100px;
-}
-
-h5{
-    display: inline;
-    margin-right: 6%;
-}
-
-#search{
-    width: 20px;
-    margin-left: 160px;
-    margin-right: 20px;
-}
-
-#contact{
-    width: 20px;
-    margin-right: 20px;
-    
-}
+---CSS----
 
 
-#love{
-    width: 20px;
-    margin-right: 20px;
-  
-}
 
-
-#basket{
-    width: 20px;
-    margin-right: 20px;
-   
-}
-
-
-.first{
-    color: rgb(0, 0, 0);
-    margin-left: 3%;
-    font-size: 50px;
-    font-weight: bold;
-    margin-bottom: -10px;
-    margin-top: 100px;
-    display: inline-block;
-}
-
-#pizzas{
-    color: rgb(255, 197, 6);
-}
-
-.second{
-    color: green;
-    margin-left: 3%;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
-
-.third{
-    margin-left: 3%;
-    margin-top: 5px;
-    font-weight: bold;
-    color: brown;
-}
-
-.fourth{
-    color: green;
-    margin-left: 20px;
-}
-
-#sup{
-    color: brown;
-}
-
-.ordernow{
-    background-color:rgb(255, 197, 6);
-    color: rgb(26, 13, 3);
-    border: none;
-    height: 30px;
-    border-radius: 6px;
-    border-style: solid;
-    border-width: 0px;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 11px;
-    padding-bottom: 20px;
-    font-weight: bold;
-    font-size: 10px;
-    transition: opacity 1s;
-    font-family: Arial, Helvetica, sans-serif;
- }
-
- .menus{
-    background-color:rgb(177, 114, 85);
-    color: rgb(26, 13, 3);
-    border: none;
-    height: 30px;
-    border-radius: 6px;
-    border-style: solid;
-    border-width: 0px;
-    margin-right: 100px;
-    margin-left: 600px;
-    margin-top: 130px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 11px;
-    padding-bottom: 20px;
-    font-weight: bold;
-    font-size: 10px;
-    transition: opacity 1s;
-    font-family: Arial, Helvetica, sans-serif;
- }
-
-//PIZZA UPDATED FILE(MAIN FILE)
+********** //PIZZA UPDATED FILE(MAIN FILE)-HOME *************
 
 <!DOCTYPE html>
 <html>
@@ -214,7 +54,8 @@ h5{
     </body>
     </html>
 
-//PIZZA CSS UPDATED (PIZZA.CSS)
+***********//PIZZA CSS UPDATED (PIZZA.CSS)-HOME ***************
+
 body{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img.jpg);
     background-repeat: no-repeat;
@@ -349,7 +190,8 @@ a{
 }
 
 
-//MENU (MENU.HTML)
+**********//MENU (MENU.HTML)**********
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -357,6 +199,11 @@ a{
         <link rel="stylesheet" href="menu.css">
     </head>
     <body>
+        <div class="div0">
+            <p class="website">WEBSITE IS OPEN -- NOW TAKING ORDERS FOR THIS WEEKEND -- ONLINE ORDERS CLOSE 9 AM FRIDAY</p>
+
+        </div>
+
         <div>
         
             <p class="class1">
@@ -366,36 +213,243 @@ a{
                 Our Italian crust is hand made<br> &nbsp;&nbsp;&nbsp;for us and wood-fired in<br> Modena, Italy. Toppings are all<br>&nbsp;&nbsp;&nbsp; local and/or home gown.
 
             </p>
+
+            <button class="shop">SHOP ALL PIZZAS</button>
+
+           
         </div>
+
         <div>
-            <span>
-                <img src="" id="">
-            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span>
-                <img src="" id="">
-            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span>
-                <img src="" id="">
-            </span>
-            <span><br><br>
-                <img src="" id="">
-            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-          
+            <p class="cls1">
+                ** ORDER NOW FOR SATURDAY PICKUP **
+            </p>
+            <p class="cls2">   
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ACCEPTING ONLINE ORDERS UNTIL 9AM FRIDAY.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                FARM STORE OPEN SATURDAY 11-4 FOR IN PERSON SHOPPING.
+            </p> 
+            <p class="cls3">
+       
+                IF ORDERING PIZZAS ONLY...
+            </p>
+            <p class="cls4">
+                ...and your total is over $50, and you live in our delivery zone,
+                you'll be offered free weekend home delivery at checkout.
+            </p>
         </div>
+        <div class="pics">
+                <div class="pic1">
+    
+                    <img src="CandiedCornDessertpizza.jpg" id="img1">
+                    <p class="name">Candied Corn Desert Pizza</p>
+                    <p class="price">$9.00</p>
+                </div>
+
+                <div class="pic2">
+                    <img src="boursinsan_marzano_pizza.jpg" id="img2">
+                    <p class="name">Bour-San Marzano Pizza</p>
+                    <p class="price">$12.75</p>
+                </div>
+           
+                <div class="pic3">
+                    <img src="heirloom_tomato_pizza.jpg" id="img3">
+                    <p class="name">Heirloom Tomato Pizza</p>
+                    <p class="price">$13.00</p>
+                </div>
+           
+                <div class="pic4">
+                    <img src="general_tsos_pizza.jpg" id="img4">
+                    <p class="name">General Tso's Chicken pizza</p>
+                    <p class="price">$13.50</p>
+                </div>
+            
+                <div class="pic5">
+                    <img src="CinnamonSwirlpizza.jpg" id="img5">
+                    <p class="name">Cinnamon Swirl Desert Pizza</p>
+                    <p class="price">$11.50</p>
+                </div>
+          
+                <div class="pic6">
+                    <img src="Beetza.jpg" id="img6">
+                    <p class="name">The Beetza grilled pizza</p>
+                    <p class="price">12.50</p>
+                </div>
+
+                <div class="pic7">
+                    <img src="orangechickenpizza.jpg" id="img7">
+                    <p class="name">Orange Chicken smash pizza</p>
+                    <p class="price">$13.50</p>
+                </div>
+            
+                <div class="pic8">
+                    <img src="van-dyne-special.jpg" id="img8">
+                    <p class="name">van dyne wave special pizza</p>
+                    <p class="price">$12.50</p>
+                </div>
+
+                <div class="pic9">
+                    <img src="prosciuttocottopizza.jpg" id="img9">
+                    <p class="name">Prosciutto Cotto rish pizza</p>
+                    <p class="price">$13.00</p>
+                </div>
+           
+                <div class="pic10">
+                    <img src="Breakfast.jpg" id="img10">
+                    <p class="name">Breakfast  dragon  Pizza</p>
+                    <p class="price">$12.00</p>
+                </div>
+
+                <div class="pic11">
+                    <img src="Margherita.jpg" id="img11">
+                    <p class="name">Margherita Sweetcorn Pizza </p>
+                    <p class="price">$12.00</p>
+                </div>
+          
+                <div class="pic12">
+                    <img src="WhiteButton.jpg" id="img12">
+                    <p class="name">WhiteButton Berry Pizza</p>
+                    <p class="price">$11.50</p>
+                </div>
+
+                <div class="pic13">
+                    <img src="CaramelizedSweetcornBacon.jpg" id="img13">
+                    <p class="name">Caramelized Sweetcorn Bacon</p>
+                    <p class="price">$12.00</p>
+                </div>
+
+                <div class="pic14">
+                    <img src="cherry-pull-pork.jpg" id="img14">
+                    <p class="name">Cherry Pulled Pork Pizza</p>
+                    <p class="price">$13.00</p>
+                </div>
+
+                <div class="pic15">
+                    <img src="Bacon Mac n' Cheese.jpg" id="img15">
+                    <p class="name">Bacon Mac n' Cheese Pizza</p>
+                    <p class="price">$11.50</p>
+                </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <p class="picking">PICKING UP AT THE FARM? ADD THESE TO YOUR ORDER...</p>
+
+        
+    
+        <div class="picss">
+                
+                <div class="pic16" style="background-color: rgb(255, 255, 255);">
+                    <img src="IMG_4905_800x_crop_top.jpg" id="img16">
+            
+                </div>
+                
+
+                <div class="pic17" style="background-color: rgb(255, 255, 255);">
+                    <img src="icecream.jpg" id="img17">
+                    
+                </div>
+
+                <div class="pic18" style="background-color: rgb(255, 255, 255);">
+                    <img src="bakery.jpg" id="img18">
+                    
+                </div>
+
+                <div class="pic19" style="background-color: rgb(255, 255, 255);">
+                    <img src="steakburritobowl.jpg" id="img19">
+                    
+                </div>
+
+                <div class="pic20" style="background-color: rgb(255, 255, 255);">
+                    <img src="kelleyspumpkinbar.jpg" id="img20">
+                    
+                </div>
+
+                <div class="pic21" style="background-color: rgb(255, 255, 255);">
+                    <img src="KST-PUMPKINCAKESQUARES.jpg" id="img21">
+                    
+                </div>
+                
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="last">
+
+            <div class="first">
+                <p class="subscribe">SUBSCRIBE</p>
+                <P>It'll just be us emailing you when we have new toppings<br>&nbsp;&nbsp;&nbsp;&nbsp; and special deals. We won't share your email with<br> ANYONE.</P>
+            </div>
+       
+
+      
+            <div class="second">
+                <p class="sitemap">SITE MAP</p>
+                <P>HOME<br>
+                    ORDER<br>
+                    GIFT CARDS<br>
+                    DELIVERY INFO<br>
+                    Contact</P>
+            </div>
+       
+        
+
+        
+            <div class="third">
+                <p class="call">CALL OR TEXT</p>
+                <P>1.920.948.2878 • Contact Us<br>
+
+                   &nbsp;&nbsp;&nbsp;&nbsp; N9017 Van Dyne Road<br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Van Dyne, WI 54979</P>
+            </div>
+            
+        
+
+            <p class="shopify"><center>© 2023, Poco Pizza<br>
+            Powered by Shopify</center>
+
+            </p>
+        </div>
+        
        
     </body>
     </html>
 
 
-//MENU.CSS
+*****************//MENU.CSS***************
 
 body{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(imm.jpg);
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
     
+}
+
+.div0{
+  background-color: rgb(247, 125, 54);
+  display: inline-block;
+  width: 100%;
+
+}
+
+.website{
+  
+  font-size: 18px;
+  
+  text-align: center;
+ 
 }
 
 .class1{
@@ -416,27 +470,489 @@ body{
    
 }
 
-//ABOUT.HTML
+.shop{
+    color: rgb(58, 10, 10);
+    border: none;
+    border-style: solid;
+    margin-right: 20px;
+    margin-left: 130px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    background-color: rgb(204, 143, 73);
+    transition: background-color 1s, color: 1s;
+    transition: opacity 1s;
+}
+
+.shop:hover{
+    color: rgb(236, 223, 184);
+    background-color:rgb(122, 52, 52);
+ }
+
+ .cls1{
+    font-size: 50px;
+    color: blanchedalmond;
+    margin-left: 150px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+ }
+
+ .cls2{
+    font-size: 30px;
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+    margin-left: 150px;
+ }
+
+ .cls3{
+    font-size: 25px ;
+    color: burlywood;
+    margin-left: 470px;
+ }
+
+ .cls4{
+    font-size: 20px;
+    color: blanchedalmond;
+    margin-left: 150px;
+ }
+
+ .pics{
+    margin-left: 150px;
+    margin-top: 330px;
+    display: grid;
+    row-gap: 70px;
+    column-gap: 70px;
+    grid-template-columns: 300px 300px 300px;
+
+ }
+ img{
+    width: 300px;
+ }
+
+ .picking{
+   margin-left: 320px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 30px;
+ }
+
+ .picss{
+   margin-left: 7px;
+   margin-top: 50px;
+   display: grid;
+   grid-template-columns: 420px 420px 420px;
+   column-gap: 30px;
+   row-gap: 30px;
+   width: 50px;
+ }
+
+ #img16{
+   width: 100%;
+ }
+
+ #img17{
+   width: 100%;
+ }
+
+ #img18{
+   width: 100%;
+ }
+
+ #img19{
+   width: 100%;
+ }
+
+ #img20{
+   width: 100%;
+ }
+
+ #img21{
+   width: 100%;
+ }
+
+ .name{
+  margin-left: 70px;
+ }
+
+ .price{
+  margin-left: 130px;
+ }
+
+
+ 
+ .last{
+   
+   
+   background-color: rgb(236, 236, 236);
+   display: grid;
+   grid-template-columns: 350px 350px 350px;
+   justify-content: space-between;
+   
+   
+ }
+ .first{
+   font-family: sans-serif;
+   color: rgb(80, 82, 83);
+   background-color: rgb(236, 236, 236);
+   text-align: center;
+   margin-left: 20px ;
+   margin-top: 50px;
+ } 
+
+ .second{
+   font-family: sans-serif;
+   background-color: rgb(236, 236, 236);
+   color: rgb(80, 82, 83);
+   margin-top: 50px;
+   text-align: center;
+   margin-bottom: 50px;
+   
+ }
+.third{
+   font-family: sans-serif;
+   color: rgb(80, 82, 83);
+   background-color: rgb(236, 236, 236);
+   margin-top: 50px;
+  
+}
+
+.subscribe{
+   
+   font-size: 20px;
+   color: rgb(74, 75, 75);
+   font-weight: bold;
+   font-family: Agency FB;
+ } 
+
+ .sitemap{
+ 
+   font-size: 20px;
+   color: rgb(74, 75, 75);
+   font-weight: bold;
+   font-family: Agency FB;
+
+   
+ }
+
+
+
+ .call{
+
+   font-size: 20px;
+   margin-left: 50px;
+   color: rgb(74, 75, 75);
+   font-weight: bold;
+   font-family: Agency FB;
+ }
+
+ .shopify{
+   
+   margin-top: 50px;
+   color: rgb(116, 118, 119);
+ }
+
+**********************//DELIVERY INFO.HTML************************
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title>ABOUT</title>
-        <link rel="stylesheet" href="about.css">
+        <title>DELIVERY INFO</title>
+        <link rel="stylesheet" href="delivery.css">
     </head>
+
     <body>
-        <div>
-        <h1 class="h1"><center>ABOUT US</center></h1>
+        <div class="div00">
+            <p class="website0">WEBSITE IS OPEN -- NOW TAKING ORDERS FOR THIS WEEKEND -- ONLINE ORDERS CLOSE 9 AM FRIDAY</p>
+
         </div>
+
+        <div class="div01">
+           
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <p class="pocopizza">POCO PIZZA</p>
+            
+        </div>
+        <div>
+            <p class="from">FROM OUR FARM TO YOUR FREEZER</p>
+        </div>
+
+        <hr>
+
+        <p class="dinfo">DELIVERY INFO</p>
+
+    
+        <hr>
+        
+
+        <p class="free">
+            FREE DELIVERY AVAILABLE FOR PIZZA ORDERS OVER $50
+        </p>
+
+        <p class="del">
+            --DELIVERING SATURDAY & SUNDAY 10AM-3PM-- 
+        </p>
+
+        <p class="simply">
+            SIMPLY ENTER YOUR ZIP CODE UPON CHECKOUT TO SCHEDULE YOUR DELIVERY.
+        </p>
+
+        <p class="we">
+            WE ARE CURRENTLY ONLY ABLE TO DELIVER PIZZAS. ORDERS WITH OTHER ITEMS WILL BE AVAILABLE FOR PICKUP AT THE FARM STORE SATURDAYS 11AM - 4PM.
+        </p>
+
+        <div class="sat1">
+            <p class="sat">
+                SATURDAY DELIVERIES:<br>
+                54937, 54935, 53049, 53057, 53065<br>
+                <br>
+                SUNDAY DELIVERIES:<br>
+                OSHKOSH - 54901, 54902, 54904, 54979<br>
+                <br>
+                APPLETON - 54911, 54913, 54914, 54915, 54956, 54942<br>
+
+ 
+            </p>
+
+            <p class="freedel">
+                <span class="f">FREE DELIVERY</span> for orders over $50 will take place every Saturday & Sunday between 10AM and 3PM. You will select your delivery date when you check out.<br>
+                <br>
+                Deliveries are still 'no contact'. Not due to the pandemic but because we've found it's just unbelievably more efficient. We will place your items in your cooler<br>
+                and then knock or we'll ding your ring. If you will not have a cooler waiting for us, please leave further instructions in the "Notes" box in your 'Shopping<br>
+                Cart' (EX: "place pizzas in garage freezer" or "our kids might be napping if you ring the bell you'll be destroyed" etc...). Tips are not necessary, but accepted and<br>
+                appreciated.<br> 
+                <br>
+                THE FREE TREAT will still be delivered with your order every week!<br>
+                <br>
+                <span class="all">All orders for Saturday & Sunday must be received by 9 AM Friday.</span><br>
+            </p>
+            <br>
+            <br>
+        </div>
+
+        <div class="last">
+
+            <div class="first">
+                <p class="subscribe">SUBSCRIBE</p>
+                <P>It'll just be us emailing you when we have new toppings<br>&nbsp;&nbsp;&nbsp;&nbsp; and special deals. We won't share your email with<br> ANYONE.</P>
+            </div>
+       
+
+      
+            <div class="second">
+                <p class="sitemap">SITE MAP</p>
+                <P>HOME<br>
+                    ORDER<br>
+                    GIFT CARDS<br>
+                    DELIVERY INFO<br>
+                    Contact</P>
+            </div>
+       
+        
+
+        
+            <div class="third">
+                <p class="call">CALL OR TEXT</p>
+                <P>1.920.948.2878 • Contact Us<br>
+
+                   &nbsp;&nbsp;&nbsp;&nbsp; N9017 Van Dyne Road<br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Van Dyne, WI 54979</P>
+            </div>
+            
+        
+
+            <p class="shopify"><center>© 2023, Poco Pizza<br>
+            Powered by Shopify</center>
+
+            </p>
+        </div>
+
     </body>
+
 </html>
 
-//ABOUT.CSS
+********************** DELIVERY INFO (CSS) ***********************
 
-body{
-        background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(food.jpg);
-        background-repeat: no-repeat;
-        background-size: 1920px 1080px;
-        
-    }
+.div00{
+  background-color: rgb(122, 189, 78);
+  display: inline-block;
+  width: 100%;
+}
+
+.website0{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+   
+}
+
+.div01{
+  background-color: rgb(230, 230, 230);
+  display: inline-block;
+  width: 100%;
+  height: 38px;
+}
+
+.pocopizza{
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.from{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(153, 153, 153);
     
+  
+}
+
+.dinfo{
+    text-align: center;
+    color: black;
+    font-family: Agency FB;
+    font-size: 40px;
+}
+
+.free{
+    text-align: center;
+    font-size: 30px;
+    font-family: calibri;
+}
+
+.del{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: -1px;
+    font-family: calibri;
+}
+
+.simply{
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: -1px;
+    font-family: calibri;
+
+}
+
+.we{
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: -1px;
+    font-family: calibri;
+ 
+}
+
+.sat1{
+    margin-left: 50px;
+}
+
+.sat{
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-family: calibri;
+    color: rgb(82, 194, 8);
+    font-weight: bold;
+}
+
+.freedel{
+    font-size: 18px;
+    font-family: calibri;
+    color: rgb(77, 76, 76);
+}
+
+.f{
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+}
+
+.all{
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+}
+
+.last{
+   
+   
+    background-color: rgb(236, 236, 236);
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: space-between;
+    
+    
+  }
+  .first{
+    font-family: sans-serif;
+    color: rgb(80, 82, 83);
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    margin-left: 20px ;
+    margin-top: 50px;
+  } 
+ 
+  .second{
+    font-family: sans-serif;
+    background-color: rgb(236, 236, 236);
+    color: rgb(80, 82, 83);
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+  }
+ .third{
+    font-family: sans-serif;
+    color: rgb(80, 82, 83);
+    background-color: rgb(236, 236, 236);
+    margin-top: 50px;
+   
+ }
+ 
+ .subscribe{
+    
+    font-size: 20px;
+    color: rgb(74, 75, 75);
+    font-weight: bold;
+    font-family: Agency FB;
+  } 
+ 
+  .sitemap{
+  
+    font-size: 20px;
+    color: rgb(74, 75, 75);
+    font-weight: bold;
+    font-family: Agency FB;
+ 
+    
+  }
+ 
+ 
+ 
+  .call{
+ 
+    font-size: 20px;
+    margin-left: 50px;
+    color: rgb(74, 75, 75);
+    font-weight: bold;
+    font-family: Agency FB;
+  }
+ 
+  .shopify{
+    
+    margin-top: 50px;
+    color: rgb(116, 118, 119);
+  }
+
+
+************************* ABOUT US (HTML) *********************
+
